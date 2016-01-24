@@ -30,6 +30,7 @@ plot(y = dailyact, x = names(dailyact), type = "l", xlab = "5-Minute-Interval",
 dailyact[dailyact==max(dailyact)]
 
 ## The answer is 835 (step2)
+
 ## Count number of NA's
 sum(is.na(activity$steps))
 ##Number of NA's is 230
